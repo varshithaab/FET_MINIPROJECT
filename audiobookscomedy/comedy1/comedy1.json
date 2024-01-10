@@ -1,0 +1,9 @@
+{
+    "songs": [
+      {
+        "title": "Magic",
+        "audio": "./comedy1.mp3",
+        "cover": "photos/audio1.png"
+      }
+    ]
+  }

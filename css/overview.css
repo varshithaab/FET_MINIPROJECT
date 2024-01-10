@@ -1,0 +1,41 @@
+.overview .card
+{
+    position:relative;
+    width:300px;
+    height:420px;
+    background-color:white;
+    margin:20px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 15px 25px rgba(0,0,0,.2);
+    transition: .6s ease-in-out;
+    display:inline-block;
+    border: 1px solid lightcoral;
+
+}
+.overview:hover .card{
+   
+    transform: scale(.9);
+    opacity: 1;
+}
+.overview .card:hover{
+    filter:blur(0);
+    transform: scale(1);
+    opacity: 1;
+   
+}
+.overview .card:hover .circle
+{
+    clip-path: circle(600px);
+}
+.overview{
+    justify-content: center;
+    background-color:lightcoral;
+}
+#scroll
+{
+    background-color: white;
+    text-align: center;
+    
+}
+

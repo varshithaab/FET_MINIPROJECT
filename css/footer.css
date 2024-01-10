@@ -1,0 +1,30 @@
+/*footer*/
+.footer {
+    background-color:gray;
+    color: white;
+    font-size: 1.5rem;
+    padding:50px 10px 0 10px;
+    height: 20rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.footer-ul{
+    list-style-type: none;
+    font-size: 1rem;
+}
+.footer-li{
+    margin:5px;
+}
+.social-icon{
+    display: inline-block;
+    margin:10px;
+   
+}
+.social-icon:hover{
+    scale:1.5;
+    color:rgb(87, 85, 84);
+}
+.copyright{
+    font-size: 1rem;
+}

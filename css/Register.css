@@ -1,0 +1,132 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');  
+
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: 'serif';
+  color: #f8f9fa; 
+
+}
+body {
+    font-family: 'Arial', sans-serif;
+/*     background-color: #f8f9fa; */
+    margin: 0;
+    padding: 0; 
+    background:url('img.jpg') no-repeat;
+    background-color: #8c07ca;
+  background-size:cover;
+  background-position:center;
+  font-weight: bolder;
+  }
+  
+  
+  .container {
+    max-width: 400px;
+    margin: 50px auto;
+  }
+  
+  .login-form,
+  .register-form {
+    /* background-color: #fff; */
+    padding: 20px;
+    box-shadow: 0 0 10px black;
+    background: transparent;
+    box-shadow: 0 0 10 rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(8px);
+  }
+
+  
+  h1 {
+    text-align: center;
+    color: rgb(250, 246, 246);
+  }
+  
+  /* .form-group {
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: black;
+  }
+  
+  .form-group input {
+     width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid #ced4da;
+    box-sizing: border-box; 
+    transition: border-bottom-color 0.3s;
+    
+
+.form-group input:focus{
+  outline:none;
+  border-bottom-color: #8c07ca;
+}
+  
+  .register-btn,
+  .login-btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #0f0f0f;
+    background-color: #f6faf8;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .register-btn:hover,
+  .login-btn:hover {
+    background-color: #8c07ca;
+  } */ 
+  .form-group {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: rgb(252, 251, 251);
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid #ced4da; /* Add a bottom border for the line effect */
+    box-sizing: border-box;
+    transition: border-bottom-color 0.3s; /* Smooth transition for the line color change */
+  }
+  
+  /* Change line color on focus */
+  .form-group input:focus {
+    outline: none;
+    border-bottom-color: #8c07ca; /* Change the line color on focus */
+  }
+  
+  .register-btn,
+  .login-btn {
+    width:100%;
+  height:40px;
+  background-color:#fff;
+  border:none;
+  border-radius:40px;
+  cursor:pointer;
+  font-size:1em;
+  color:#000;
+  font-weight:500;
+  }
+  
+  .register-btn:hover,
+  .login-btn:hover {
+    background-color: #8c07ca;
+    color: white;
+  }
+  

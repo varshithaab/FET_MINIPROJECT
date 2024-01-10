@@ -1,0 +1,9 @@
+{
+    "songs": [
+      {
+        "title": "The Empty House",
+        "audio": "./horror3.mp3",
+        "cover": "photos/audio1.png"
+      }
+    ]
+  }

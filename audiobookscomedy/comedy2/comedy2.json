@@ -1,0 +1,9 @@
+{
+    "songs": [
+      {
+        "title": "Comedy Of Errors",
+        "audio": "./comedy2.mp3",
+        "cover": "photos/audio1.png"
+      }
+    ]
+  }

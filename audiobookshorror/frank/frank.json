@@ -1,0 +1,9 @@
+{
+    "songs": [
+      {
+        "title": "Frankenstein",
+        "audio": "frankenstein_cs_librivox/frankenstein_01_shelley_64kb.mp3",
+        "cover": "photos/audio1.png"
+      }
+    ]
+  }

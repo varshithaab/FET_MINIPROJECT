@@ -1,0 +1,9 @@
+{
+    "songs": [
+      {
+        "title": "Shadows On The Wall",
+        "audio": "./horror4.mp3",
+        "cover": "photos/audio1.png"
+      }
+    ]
+  }

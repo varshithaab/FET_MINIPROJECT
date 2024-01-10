@@ -1,0 +1,9 @@
+{
+    "songs": [
+      {
+        "title": "Mystery & Suspense",
+        "audio": "./comedy5.mp3",
+        "cover": "photos/audio1.png"
+      }
+    ]
+  }
