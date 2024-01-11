@@ -1,0 +1,130 @@
+
+.title{
+    background-color: #ac87c5;
+    padding:4rem;
+    
+}
+
+.text{
+    font-size: 4rem;
+    font-weight: 500;
+    color:white;
+    padding-top:4rem;
+    text-align: center;
+
+}
+.subtext{
+    font-size:1rem;
+    color:white;
+    text-align: center;
+}
+.imagediv{
+    
+    background-image: url('podcast_img.jpg');
+    backdrop-filter: blur(15rem);
+    border-radius: 20% 0 20% 10%;
+    
+    background-size: cover;
+
+    
+}
+
+/*main*/
+.pod_main{
+    
+    margin-top:0rem;
+   
+}
+.category{
+    font-size:2rem;
+    color:blueviolet;
+    margin:0.6rem;
+}
+.card{
+    width:15rem;
+    margin:2rem;
+    
+}
+.card img{
+    height:10rem;
+    width:15rem;
+    background-size: cover;
+}
+.card-title{
+    padding:0;
+}
+.card:hover{
+    scale:1.2;
+    border:0.125rem solid black;
+    box-shadow: 0.3rem 0.3rem 0.125rem 0.06rem rgba(78, 77, 77, 0.2);
+}
+audio{
+    width:15rem;
+    padding:0;
+    border:0;
+    margin:0;
+}
+
+/*footer*/
+.footer {
+    background-color:rgb(199, 192, 192);
+    color: white;
+    font-size: 1.5rem;
+   
+    padding:3.1rem 0.6rem 0 0.6rem;
+
+        justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+    font-size: 1rem;
+    
+
+}
+li{
+    margin:0.3rem;
+    
+}
+
+#a1{
+    text-decoration: none;
+    color:white;
+}
+#a1:hover{
+    color:co
+}
+.social-icon{
+    display: inline-block;
+    margin:0.3rem;
+   
+}
+.social-icon:hover{
+    scale:1.5;
+    color:rgb(87, 85, 84);
+}
+.copyright{
+    font-size: 1rem;
+   
+}
+
+@media  (max-width:1028px){
+    .card{
+        width:25%;
+    }
+    .imagediv{
+        position:static;
+    }
+    
+}
+@media  (max-width:600px){
+    .card{
+        width:50%;
+    }
+}
+@media  (max-width:300px){
+    .card{
+        width:100%;
+    }
+}

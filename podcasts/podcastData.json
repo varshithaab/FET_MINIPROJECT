@@ -1,0 +1,124 @@
+
+{
+    "podcast":
+    [
+  
+        {
+
+            "id":1,
+            "url":"images/english.jfif",
+            "title":"English",
+            "genre":"Popular",
+            "podcastFile":"podcastReturns.mp3"
+  
+        },
+  
+        {
+            "id":2,
+            "url":"images/three-things.jpg",
+            "title":"Three things",
+            "genre":"Popular",
+            "podcastFile":"podcastReturns.mp3"
+  
+        },
+        {
+            "id":3,
+  
+          "url":"images/thisAmericanLife.jpg",
+          
+  
+          "title":"The American Life",
+          "genre":"Popular",
+          "podcastFile":"podcastReturns.mp3"
+  
+  
+        },
+        {
+            "id":4,
+            "url":"images/winterSnowBook.jfif",
+            "title":"Winter Snow Book",
+            "genre":"Popular",
+            "podcastFile":"podcastReturns.mp3"
+            
+            
+            
+  
+        },
+        {
+            "id":5,
+            "url":"images/bhayOriginals.jpg",
+            "title":"Bhay Originals",
+            "genre":"Thriller & Horror",
+            "podcastFile":"podcastReturns.mp3"
+     
+  
+  
+        },
+  
+        {
+            "id":6,
+            "url":"images/kaaliAwaazein.jpg",
+            "title":"Kaali Awaazein",
+            "genre":"Thriller & Horror",
+            "podcastFile":"podcastReturns.mp3"
+  
+        },
+        {
+            "id":7,
+            "url":"images/theBurnedPhoto.jpg",
+            "title":"The Burned Photo",
+            "genre":"Thriller & Horror",
+            "podcastFile":"podcastReturns.mp3"
+  
+        },
+        {
+            "id":8,
+            "url":"images/nostalgicMystery.jpg",
+            "title":"Nostalgic Mystery",
+            "genre":"Thriller & Horror",
+            "podcastFile":"podcastReturns.mp3"
+  
+        },
+        {
+            "id":9,
+            "url":"images/theSleepyBookshelf.jfif",
+            "title":"The Sleepy Bookshelf",
+            "genre":"Others",
+            "podcastFile":"podcastReturns.mp3"
+  
+        },
+        {
+            "id":10,
+            "url":"images/classicTales.jpg",
+            "title":"Classic Tales",
+            "genre":"Others",
+            "podcastFile":"podcastReturns.mp3"
+  
+        },
+        {
+            "id":11,
+            "url":"images/vikramBeetal.jpg",
+            "title":"Vikram Beetal",
+            "genre":"Others",
+            "podcastFile":"podcastReturns.mp3"
+  
+        },
+        {
+            "id":12,
+            "url":"images/mahabharatha.jfif",
+            "title":"Mahabharatha",
+            "genre":"Others",
+            "podcastFile":"podcastReturns.mp3"
+  
+        }
+
+      ]
+    }
+      
+  
+  
+    
+  
+    
+  
+  
