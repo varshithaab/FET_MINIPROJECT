@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Sci-Fi</title>
+    <link rel="stylesheet" href="Main.css">
+</head>
+<body>
+
+<div class="container mt-4">
+    <div class="row" id="cardContainer"></div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    // Array of image URLs
+    const imageUrls = [
+        'Books/Sci-Fi/a1.jpg',
+        'Books/Sci-Fi/a2.jpg',
+        'Books/Sci-Fi/a3.webp',
+        'Books/Sci-Fi/a4.jpg',
+        'Books/Sci-Fi/a5.jpg',
+        'Books/Sci-Fi/a6.jfif',
+        // Add more image URLs as needed
+    ];
+
+    //Array of Descriptions
+    // const textDescription = {
+    //     ''
+
+    // }
+
+    //Array of Title Cards
+    const bookTitles = [
+        'Gods Of Blood And Bone',
+        "Winter's Orbit",
+        'The Ascendant Wars',
+        'The Mandalorian',
+        'Expeditionary Force',
+        'The Dark Forest',
+    ];
+
+    // Reference to the card container
+    const cardContainer = document.getElementById('cardContainer');
+
+    // Iterate through the image URLs and create Bootstrap cards
+    imageUrls.forEach(function (imageUrl,title) {
+        const cardHtml = `
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="${imageUrl}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title"> ${bookTitles[title]} </h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Listen Now</a>
+                    </div>
+                </div>
+            </div>
+        `;
+
+        // Append the dynamically generated card to the container
+        cardContainer.innerHTML += cardHtml;
+    });
+});
+</script>
+
+</body>
+</html>

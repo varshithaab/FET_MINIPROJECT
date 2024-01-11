@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>FANTASY</title>
+    <link rel="stylesheet" href="Main.css">
+</head>
+<body>
+
+<div class="container mt-4">
+    <div class="row" id="cardContainer"></div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    // Array of image URLs
+    const imageUrls = [
+        'Books/Fantasy/v1.jpg',
+        'Books/Fantasy/v2.jpg',
+        'Books/Fantasy/v3.jpg',
+        'Books/Fantasy/v4.jpg',
+        'Books/Fantasy/v5.jfif',
+        'Books/Fantasy/v6.jpg',
+        // Add more image URLs as needed
+    ];
+     //Array of Title Cards
+     const bookTitles = [
+        'Harry Potter',
+        "Ascendant",
+        "King's Envoy",
+        'Spider-Man:The darkest hours',
+        'House of Dragons',
+        'Pirate Wizard-3',
+    ];
+
+    // Reference to the card container
+    const cardContainer = document.getElementById('cardContainer');
+
+    // Iterate through the image URLs and create Bootstrap cards
+    imageUrls.forEach(function (imageUrl,title) {
+        const cardHtml = `
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="${imageUrl}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">${bookTitles[title]}</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Listen Now</a>
+                    </div>
+                </div>
+            </div>
+        `;
+
+        // Append the dynamically generated card to the container
+        cardContainer.innerHTML += cardHtml;
+    });
+});
+</script>
+
+</body>
+</html>

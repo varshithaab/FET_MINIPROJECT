@@ -1,0 +1,9 @@
+{
+    "songs": [
+      {
+        "title": "Terrible Thing",
+        "audio": "./texas week.mp3",
+        "cover": "photos/audio1.png"
+      }
+    ]
+  }

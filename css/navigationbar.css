@@ -37,7 +37,9 @@ nav .logo {
 nav .nav-items {
     display: flex;
     flex: 1;
-    padding: 0 0 0 200px;
+}
+.login {
+    justify-content: flex-end;
 }
 
 /* Styling the list items in the nav tag */

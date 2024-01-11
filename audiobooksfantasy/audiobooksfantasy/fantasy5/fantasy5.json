@@ -1,0 +1,9 @@
+{
+    "songs": [
+      {
+        "title": "House Of The Dragon",
+        "audio": "./fantasy5.mp3",
+        "cover": "photos/audio1.png"
+      }
+    ]
+  }

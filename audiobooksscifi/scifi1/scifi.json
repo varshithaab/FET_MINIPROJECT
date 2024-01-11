@@ -1,0 +1,9 @@
+{
+    "songs": [
+      {
+        "title": "Jeremy  Robinson",
+        "audio": "./scifi.mp3",
+        "cover": "photos/audio1.png"
+      }
+    ]
+  }

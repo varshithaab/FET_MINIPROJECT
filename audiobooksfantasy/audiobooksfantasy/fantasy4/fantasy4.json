@@ -1,0 +1,9 @@
+{
+    "songs": [
+      {
+        "title": "Spider Man",
+        "audio": "./fantasy4.mp3",
+        "cover": "photos/audio1.png"
+      }
+    ]
+  }

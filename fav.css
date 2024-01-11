@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    background-color: #8a2be2; /* Violet color */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+
+  nav {
+    background-color: #444;
+    padding: 10px;
+  }
+
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 10px;
+  }
+
+  .book {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+
+  .heart {
+    color: red;
+    font-size: 24px; /* Adjust the size as needed */
+    margin-right: 10px;
+  }
+
+  .book h2 {
+    color: #333;
+    margin: 0;
+  }
+
+  footer {
+    background-color: #8a2be2; /* Violet color */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
